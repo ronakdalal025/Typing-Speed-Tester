@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <div class="container">
+        <h1 style="margin-bottom: 2rem;">Test your typing speed</h1>
+        <div class="stats">
+            <div class="result">
+                <p id="highest"><b>Highest Speed</b> : __ Words Per Minute</p>
+                <p id="speed"><b>Speed</b> : __ Words Per Minute</p>
+            </div>
+            <div class="timer-btn">
+                <div><p class="timer"><b>Remaining Time</b></br>00:60</p></div>
+            </div>
+        </div>
+        <button class="btn mt-3 btn-dark">Start Again</button>
+        <div class="typingBox" contenteditable="true" autocorrect="off" autocapitalize="off" spellcheck="false"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

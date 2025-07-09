@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.correct{
+    color: rgb(151, 208, 235);
+}
+.incorrect{
+    background-color: red;
+}
+.typingBox{
+    margin: auto;
+    margin-top: 1.5rem;
+    height: 50vh;
+    width: 70vw;
+    font-size: 2.5rem;
+    overflow: auto;
+    color: rgba(0, 0, 0, 0.322);
+    word-spacing: 1rem;
+    padding: 1rem;
+    white-space: pre-wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.caret{
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    background: black;
+    animation: blink 1s step-end infinite;
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.result{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.timer-btn{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
