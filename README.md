@@ -6,7 +6,7 @@ A responsive and interactive web app to test and improve your typing speed! This
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the Typing Speed Tester](https://your-live-demo-link.com)  
+👉 [Click here to try the Typing Speed Tester](https://ronakdalal025.github.io/Typing-Speed-Tester/)  
 
 ---
 
